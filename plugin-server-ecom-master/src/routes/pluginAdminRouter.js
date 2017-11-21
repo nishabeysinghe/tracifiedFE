@@ -48,7 +48,8 @@ pluginAdminRouter.route('/getProducts').get(function (req, res) {
                 return reducedJson;
                 console.log(products);
             }, []);
-
+            
+            console.log("mhhhhhhhhhhhhhh");
             console.log(products);
             res.json(products);
 
